@@ -1,3 +1,33 @@
 {
-	"enabled": true
+	"enabled": true,
+	"settings": {
+		"usingGamepad": {
+			"type": "toggle",
+			"value": false,
+			"yes": "Yes",
+			"no": "No",
+			"title": "Using Gamepad"
+		},
+		"matchVelocityToggleEnabled": {
+			"type": "toggle",
+			"value": true,
+			"yes": "Toggle",
+			"no": "Hold",
+			"title": "Match Velocity Toggle"
+		},
+		"shipMovementToggleEnabled": {
+			"type": "toggle",
+			"value": true,
+			"yes": "Toggle",
+			"no": "Hold",
+			"title": "Ship Movement Toggle (Keyboard Only)"
+		},
+		"shipUpDownToggleEnabled": {
+			"type": "toggle",
+			"value": true,
+			"yes": "Toggle",
+			"no": "Hold",
+			"title": "Ship Up/Down Toggle"
+		}
+	}
 }
